@@ -83,15 +83,21 @@ body {
 }
 
 .socials {
+  height: 2vh;
+  width: 2vh;
   font-size: 24px !important;
-  color: #78c256;
+  filter: invert(67%) sepia(27%) saturate(824%) hue-rotate(57deg)
+    brightness(98%) contrast(87%);
+  /* color: #78c256; */
   margin-left: 15px;
   transition: all 0.2s linear;
 }
 
 .socials:hover,
 .socials:active {
-  color: #bde4d3;
+  filter: invert(93%) sepia(10%) saturate(500%) hue-rotate(98deg)
+    brightness(92%) contrast(97%);
+  /* color: #bde4d3; */
 }
 
 /* project page specific styles */
