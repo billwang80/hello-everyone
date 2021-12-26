@@ -117,7 +117,7 @@ body {
 .shark-pic {
   position: absolute;
   top: 35vh;
-  left: 45%;
+  left: 45vw;
   height: 500px;
   width: auto;
   pointer-events: none;
@@ -194,6 +194,10 @@ body {
     line-height: 120px !important;
     width: 700px !important;
   }
+  .shark-pic {
+    left: 40vw;
+    height: 700px !important;
+  }
   .socials {
     font-size: 34px !important;
   }
@@ -222,12 +226,18 @@ body {
     width: 420px;
     line-height: 96px;
   }
-  .smiley {
-    font-size: 60px !important;
+  .shark-pic {
+    top: 35vh;
+    height: 500px;
   }
 }
 
 @media (max-width: 1365px) {
+  .shark-pic {
+    top: 40vh;
+    left: 45vw;
+    height: 350px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -236,14 +246,14 @@ body {
     font-size: 64px;
     margin-left: 200px;
   }
-  .smiley {
-    font-size: 34px !important;
-  }
   .index__greeting {
     font-size: 56px;
     margin-top: 115px;
     line-height: 60px;
     margin-left: 200px;
+  }
+  .shark-pic {
+    left: 45vw;
   }
   .header__nav__link {
     font-size: 16px;
@@ -265,6 +275,11 @@ body {
 }
 
 @media (max-width: 1000px) {
+  .shark-pic {
+    top: 50vh;
+    left: 60vw;
+    height: 200px;
+  }
   .socials__wrapper {
     right: 40px;
   }
@@ -281,6 +296,10 @@ body {
     margin-top: 65px;
     line-height: 44px;
     margin-left: 140px;
+  }
+  .shark-pic {
+    top: 35vh;
+    height: 200px;
   }
   .socials {
     font-size: 20px !important;
