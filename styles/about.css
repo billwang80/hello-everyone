@@ -9,6 +9,7 @@ body {
   width: 100vw;
   background-image: linear-gradient(0deg, #022244, #58c8da);
   position: relative;
+  overflow: hidden;
 }
 
 @-webkit-keyframes float {
@@ -119,19 +120,10 @@ body {
   }
 }
 
-.about__header {
-  font-family: "Montserrat", serif;
-  font-size: 82px;
-  color: #bde4d3;
-  margin-left: 245px;
-  padding-top: 150px;
-  z-index: 99;
-  position: relative;
-  pointer-events: none;
-}
-
 .about__container {
-  margin-top: 30px;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  /* margin-top: 30px; */
   margin-left: 245px;
   display: flex;
   flex-direction: row;
