@@ -205,14 +205,6 @@ body {
     width: 110px;
     height: 110px;
   }
-  .header__nav__link {
-    font-size: 26px;
-  }
-  .header__nav {
-    left: -125px;
-    top: 490px;
-    width: 480px;
-  }
 }
 
 @media (min-width: 1650px) {
@@ -254,14 +246,6 @@ body {
   }
   .shark-pic {
     left: 45vw;
-  }
-  .header__nav__link {
-    font-size: 16px;
-  }
-  .header__nav {
-    width: 320px;
-    left: -70px;
-    top: 330px;
   }
   .socials__wrapper {
     right: 40px;
@@ -309,14 +293,6 @@ body {
     left: 35px;
     top: 35px;
   }
-  .header__nav__link {
-    font-size: 14px;
-  }
-  .header__nav {
-    left: -70px;
-    top: 265px;
-    width: 260px;
-  }
   .index__header1 {
     padding-top: 110px;
   }
@@ -335,13 +311,6 @@ body {
 @media (max-width: 780px) {
   .socials__wrapper {
     right: -30px;
-  }
-}
-
-/* mobile/tablet media queries */
-@media (max-width: 768px) {
-  .header__nav {
-    display: none;
   }
 }
 
